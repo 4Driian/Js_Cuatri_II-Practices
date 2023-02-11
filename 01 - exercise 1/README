@@ -1,0 +1,8 @@
+1. Create a function that returns in reverse the following sentence, ex: "Desde Argelia Buenas tardes" a → "tardes Buenas Argelia Desde"
+
+2. Create a function to remove spaces between letters, ex: "8 8 Bi fk8h B 8 BB8B B B  B888 c hl8 BhB fd" a → "88Bifk8hB8BB8BBBB888chl8BhBfd" 
+
+
+
+
+#Made by Adrian Zuñiga

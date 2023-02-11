@@ -1,0 +1,44 @@
+1. Write a function that finds the sum of all its arguments.
+
+eg:
+
+sum(1, 2, 3) // => 6
+sum(8, 2) // => 10
+sum(1, 2, 3, 4, 5) // => 15
+
+----------------------------------------------------------------------------------------------------------
+
+2. Write a function, factory, that takes a number as its parameter and returns another function.
+
+The returned function should take an array of numbers as its parameter, and return an array of those numbers multiplied by the number that was passed into the first function.
+
+In the example below, 5 is the number passed into the first function. So it returns a function that takes an array and multiplies all elements in it by five.
+
+Translations and comments (and upvotes) welcome!
+
+Example
+var fives = factory(5);       // returns a function - fives
+var myArray = [1, 2, 3];
+fives(myArray);               //returns [5, 10, 15];
+
+----------------------------------------------------------------------------------------------------------
+
+3. This time we want to write calculations using functions and get the results. Let's have a look at some examples:
+
+seven(times(five())); // must return 35
+four(plus(nine())); // must return 13
+eight(minus(three())); // must return 5
+six(dividedBy(two())); // must return 3
+Requirements:
+
+There must be a function for each number from 0 ("zero") to 9 ("nine")
+There must be a function for each of the following mathematical operations: plus, minus, times, dividedBy
+Each calculation consist of exactly one operation and two numbers
+The most outer function represents the left operand, the most inner function represents the right operand
+Division should be integer division. For example, this should return 2, not 2.666666...:
+eight(dividedBy(three()));
+
+
+
+
+#Made by Adrian Zuñiga
