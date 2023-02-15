@@ -97,6 +97,7 @@ Also works with native array functions
 testArrayTwo.double().filter(function(a) {
   return a === 2;
 }); // [2, 2];
+#Made by Adrian Zuñiga
 
 */
 

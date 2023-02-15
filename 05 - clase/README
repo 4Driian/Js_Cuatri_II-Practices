@@ -1,0 +1,20 @@
+El objetivo del ejercicio es utilizar constructores y prototipos para crear objetos.
+
+Requisitos:
+Crear un prototipo "personaProto" que incluya los métodos: caminar, saludar y comer.
+
+Crear un prototipo "estudianteProto" que incluya los métodos: estudiar y dormir. Este prototipo debe tener como prototipo "personaProto".
+
+Crear un prototipo "profesorProto" que incluya los métodos: enseñar y calificar. Este prototipo debe tener como prototipo "personaProto".
+
+Crear un constructor "EstudianteConstructor" que acepte como parámetros nombre, edad y escuela. Este constructor debe crear objetos que tengan como prototipo "estudianteProto".
+
+Crear un constructor "ProfesorConstructor" que acepte como parámetros nombre, carrera y escuela. Este constructor debe crear objetos que tengan como prototipo "profesorProto".
+
+Todos los métodos deben hacer uso de al menos una de las propiedades del objeto. Por ejemplo, el método "saludar" puede devolver "Hola! Soy -nombre-"
+
+Haciendo uso de "EstudianteConstructor", crear un par de objetos diferentes y llamar métodos de sus prototipos "estudianteProto" y "personaProto"
+
+Haciendo uso de "ProfesorConstructor", crear un par de objetos diferentes y llamar métodos de sus prototipos "profesorProto" y "personaProto"
+
+#Made by Adrian Zuñiga
